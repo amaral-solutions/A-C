@@ -22,7 +22,7 @@ export function Hero() {
         variant="hero"
         autoplayMs={heroCarousel.autoplayMs}
       />
-      <div className="absolute inset-0 bg-gradient-hero opacity-85" aria-hidden />
+      <div className="absolute inset-0 bg-gradient-hero opacity-75" aria-hidden />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,color-mix(in_srgb,var(--accent-primary)_18%,transparent),transparent_55%)]" aria-hidden />
 
       <Container className="relative z-10 py-28">
