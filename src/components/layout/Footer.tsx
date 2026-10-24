@@ -5,7 +5,6 @@ import { site } from '@/content/site'
 import { buildWhatsAppUrl } from '@/lib/whatsapp'
 import { BrandLogo } from '@/components/ui/BrandLogo'
 import { Container } from '@/components/ui/Container'
-import { LogoStrip } from '@/components/ui/LogoStrip'
 
 export function Footer() {
   const { contact, social, institutional, footerOfferings } = site
@@ -91,8 +90,6 @@ export function Footer() {
           </div>
         </div>
       </Container>
-
-      <LogoStrip />
 
       <Container className="flex flex-col items-center justify-between gap-4 border-t border-white/10 py-6 text-sm text-text-muted-on-dark sm:flex-row">
         <p>
