@@ -49,6 +49,7 @@ export type SiteContact = {
   serviceArea: string
   companyName: string
   crea: string
+  creaRegistration: string
 }
 
 export type SiteSocial = {

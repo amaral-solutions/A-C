@@ -6,6 +6,7 @@ import {
   Wrench,
 } from 'lucide-react'
 import type { ServicePillar } from '@/types/content'
+import { site } from '@/content/site'
 
 export const servicePillars: ServicePillar[] = [
   {
@@ -44,7 +45,7 @@ export const servicePillars: ServicePillar[] = [
     number: '02',
     title: 'Mobilidade Elétrica (Eletromobilidade)',
     intro:
-      'Infraestrutura completa para recarga de veículos elétricos em ambientes residenciais, comerciais e condominiais, com proteção e normas de emergência.',
+      'Infraestrutura para recarga de veículos elétricos conforme NBR 17019, com proteção elétrica e atendimento às exigências do Corpo de Bombeiros de MG (IT 30).',
     icon: Car,
     accentClass: 'text-accent-primary',
     mediaKey: 'mobilidade',
@@ -54,7 +55,8 @@ export const servicePillars: ServicePillar[] = [
           'Instalação de Carregadores para Veículos Elétricos (Wallbox): soluções residenciais, comerciais e para condomínios.',
           'Projetos de Infraestrutura e Infraestrutura Predial: dimensionamento de quadros dedicados (QDC-EV), balanceamento de carga e gestão dinâmica (DLM/DLB).',
           'Adequação e Proteção Elétrica: adição de dispositivos de proteção (DR/IDR, DPS) e quadros específicos (Clamper, WEG, Intelbras, NeoCharge, etc.).',
-          'Sistemas de Emergência: adequação às normas do Corpo de Bombeiros (CBMMG), incluindo botoeiras de emergência master e locais.',
+          'Conformidade NBR 17019: projetos e instalações de sistemas de recarga para veículos elétricos.',
+          'Sistemas de Emergência e CBMMG: atendimento à IT 30 e demais exigências do Corpo de Bombeiros, incluindo botoeiras de emergência master e locais.',
         ],
       },
     ],
@@ -121,8 +123,13 @@ export const servicePillars: ServicePillar[] = [
 ]
 
 export const trustItems = [
-  { label: 'CREA-MG', description: 'Responsabilidade técnica' },
+  {
+    label: 'CREA-MG',
+    description: `Registro ${site.contact.creaRegistration}`,
+  },
   { label: 'ART', description: 'Documentação oficial' },
+  { label: 'NBR 17019', description: 'Carros elétricos' },
+  { label: 'IT 30', description: 'Corpo de Bombeiros MG' },
   { label: 'NBR 5410', description: 'Instalações elétricas' },
   { label: 'NR-10', description: 'Segurança em eletricidade' },
   { label: 'NBR 5419', description: 'SPDA e aterramento' },
@@ -132,7 +139,7 @@ export const differentials = [
   {
     title: 'Conformidade normativa',
     description:
-      'Laudos e projetos alinhados às normas técnicas brasileiras e exigências de concessionárias e seguradoras.',
+      'NBR 17019, IT 30 (CBMMG), NBR 5410, NR-10 e demais normas — incluindo exigências de concessionárias e seguradoras.',
   },
   {
     title: 'Execução em campo',

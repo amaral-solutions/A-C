@@ -83,8 +83,12 @@ export function Footer() {
               Normas e confiança
             </h3>
             <ul className="mt-4 space-y-2 text-sm text-text-muted-on-dark">
-              <li>{contact.crea} — registro profissional</li>
+              <li>
+                {contact.crea} {contact.creaRegistration}
+              </li>
               <li>ART — responsabilidade técnica</li>
+              <li>NBR 17019 — recarga de veículos elétricos</li>
+              <li>IT 30 — exigências do Corpo de Bombeiros (MG)</li>
               <li>NBR 5410, NR-10, NBR 5419</li>
             </ul>
           </div>

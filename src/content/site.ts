@@ -10,12 +10,13 @@ export const site: SiteConfig = {
     serviceArea: 'Minas Gerais e região metropolitana de Belo Horizonte',
     companyName: 'A&C Engenharia Elétrica',
     crea: 'CREA-MG',
+    creaRegistration: '1423329600',
   },
   social: {},
   meta: {
     title: 'A&C Engenharia | Laudos, Solar, Mobilidade Elétrica e SPDA',
     description:
-      'Engenharia elétrica especializada: laudos técnicos (NBR 5410, NR-10, SPDA), mobilidade elétrica, manutenção predial e industrial, aterramento e energia solar fotovoltaica. ART e responsabilidade técnica CREA-MG.',
+      'Engenharia elétrica especializada: laudos técnicos, mobilidade elétrica (NBR 17019, IT 30 CBMMG), manutenção, SPDA e energia solar. CREA-MG 1423329600.',
   },
   institutional:
     'Soluções elétricas com responsabilidade técnica, conformidade normativa e execução em campo para residências, condomínios, comércios e indústrias.',
