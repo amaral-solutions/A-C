@@ -1,0 +1,52 @@
+:root {
+  /* Superfícies */
+  --surface-dark: #0b1220;
+  --surface-dark-elevated: #111827;
+  --surface-light: #f4f7fb;
+  --surface-card: #ffffff;
+
+  /* Texto */
+  --text-primary: #0f172a;
+  --text-muted: #64748b;
+  --text-on-dark: #f8fafc;
+  --text-muted-on-dark: #94a3b8;
+
+  /* Marca — amarelo + branco (fundos escuros) | amarelo + azul (fundos claros) */
+  --accent-primary: #ffeb00;
+  --accent-secondary: #facc15;
+  --accent-brand: #1d3557;
+  --accent-on-dark: #ffffff;
+
+  /* Gradientes */
+  --gradient-hero: linear-gradient(
+    135deg,
+    #0b1220 0%,
+    #1e3a5f 45%,
+    #0f766e 100%
+  );
+  --gradient-cta: linear-gradient(
+    90deg,
+    var(--accent-primary),
+    #fff9a8
+  );
+  --gradient-cta-solid: var(--accent-primary);
+  --gradient-border: linear-gradient(
+    135deg,
+    var(--accent-primary),
+    var(--accent-on-dark)
+  );
+  --gradient-highlight: linear-gradient(
+    90deg,
+    var(--accent-primary),
+    var(--accent-on-dark)
+  );
+
+  /* Efeitos */
+  --shadow-glow: 0 0 40px color-mix(in srgb, var(--accent-primary) 35%, transparent);
+  --header-blur-bg: color-mix(in srgb, var(--surface-dark) 82%, transparent);
+
+  /* Layout */
+  --radius-sm: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+}
